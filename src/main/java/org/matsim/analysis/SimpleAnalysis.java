@@ -10,6 +10,7 @@ public class SimpleAnalysis {
         var manager = EventsUtils.createEventsManager();
         manager.addHandler(handler);
 
+        // here is a change
         EventsUtils.readEvents(manager, "C:\\Users\\janek\\Projects\\matsim-serengeti-park-hodenhagen\\scenarios\\serengeti-park-v1.0\\output\\output-serengeti-park-v1.0-run1\\serengeti-park-v1.0-run1.output_events.xml.gz");
     }
 }
